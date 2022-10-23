@@ -1,0 +1,80 @@
+@font-face {
+    /*font-family:'Deadly Killers';*/
+    font-family: 'AD';
+    src: url(/src/fonts/who\ asks\ satan.ttf);
+   /* src: url(/src/fonts/DEADLY\ KILLERS.otf);*/
+}
+
+*{
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(/src/images/BACK.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 40px;
+padding-left: 10%;
+padding-right: 10%;
+}
+
+.title{
+    font-family: 'AD';
+    color: goldenrod;
+    font-size:100px;
+}
+
+span{
+    font-family: 'AD';
+    color: #e3dac9;
+}
+
+nav ul li{
+    font-size: 25px;
+     list-style-type: none;
+     display:inline;
+     padding: 10px 20px;
+}
+
+nav ul li a{
+   color:rgb(192, 144, 23);
+   text-decoration: none;
+   font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: #e3dac9 ;
+    transition: 3s;
+}
+
+.t1{
+    font: bolder;
+    color: #e3dac9;
+    font-size: 80px;
+}
+
+.text{
+    text-align: left;
+    margin: 10%;
+    padding: 1%;
+}
+
+.p{
+    color:#e3dac9;
+    font-size: 20px;
+    text-shadow: 0px 1px 0px #5555;
+    max-width: 1000px;
+    padding-top: 50px;
+}
